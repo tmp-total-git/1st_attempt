@@ -7,6 +7,9 @@ metimport<-function(area,type) {
   names(data)[1]<-"Year"
   return(data.frame(data[1:13]))
 }
+
+# INVOKE THE METIMPORT FUNCTION
+
 tmp1<-metimport('Scotland','min')
 tmp2<-metimport('Scotland','mean')
 tmp3<-metimport('UK','min')
